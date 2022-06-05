@@ -1,0 +1,15 @@
+@font-face {
+  font-family:PrimaryFont;
+  src: url('../assets/fonts/OdibeeSans-Regular.ttf');
+}
+
+.phaser-custom-font{
+  font-family:'PrimaryFont'; 
+  position: absolute; 
+  left:-1000px; 
+  visibility:hidden;
+}
+
+body{
+  background: #222222;
+}
